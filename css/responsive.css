@@ -1,0 +1,187 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) {
+  body{
+    overflow-x: hidden;
+  }
+  .container{
+    width: 90%;
+  }
+  /*.navbar-section{
+    display: none;
+  }*/
+ .first, .middle, .last{
+    display:block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .top-header{
+    padding: 32px 0px;
+    text-align: center;
+  }
+  .banner-content h1{
+    font-size: 44px;
+  }
+  .f-item-gallery{
+    grid-template-columns: auto;
+  }
+  .f-item{
+    margin-bottom: 32px;
+  }
+  .fc-gallery{
+    display: flex;
+  flex-direction: column;
+  }
+  .fc-item{
+    flex-basis: 100%;
+  }
+  .product-gallery{
+       grid-template-columns: auto;
+  }
+  .footer-content{
+    flex-direction: column;
+  }
+  footer{
+    text-align: center;
+  }
+  .footer-1, .footer-2, .footer-3, .footer-4{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-4{
+    padding-bottom: 16px;
+  }
+  .d-flex{
+    display: block;
+  }
+  .n-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .nr-content button{
+    margin-left: -14px;
+    margin-top: 12px;
+    padding: 20px 50px
+  }
+  .form-control{
+    margin-left: -14px;
+    margin-top: 12px;
+    padding: 24px 60px;
+    border-radius: 3%
+  }
+  .icon{
+    text-align: center;
+    grid-template-columns: auto;
+  }
+  .icon-image{
+    margin-left: -2px;
+  }
+  .newsletter {
+    width: 100%;
+    padding: 100px 39px;
+    background-color: #B2F9FC;
+}
+.second{
+    background-image: none;
+}
+.nl-content h2{
+margin-left: -13px;
+}
+.nl-content p{
+  margin-left: -39px;
+  font-size: 11px;
+}
+.products{
+      padding: 10px 0px
+}
+.deal{
+  margin-top: 35px;
+}
+.deal-right p{
+  font-weight: 500;
+    color: #03f84f;
+}
+.features{
+  padding: 37px 0px
+}
+.testimonial{
+  padding: 90px 0px;
+}
+h2{
+  font-size: 32px !important;
+}
+#videoBG{
+  width: 600px;
+  left: 72px;
+}
+.vid-content h1{
+  font-size: 44px;
+    margin-right: 45px;
+}
+.v-content {
+    width: 100%;
+    padding: 100px 0px;
+    overflow: hidden;
+    margin-bottom: -690px;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
+
